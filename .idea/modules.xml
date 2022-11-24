@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VikkandAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/VikkandAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/VikkandAndroid.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

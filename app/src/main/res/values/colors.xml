@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4CAF50</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="primary_light">#C8E6C9</color>
+    <color name="accent">#FF4081</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="facebook_color">#2E75B6</color>
+    <color name="facebook_color_dark">#5866BA</color>
+
+    <color name="colorPrimaryDisabled">#5866BA</color>
+    <color name="colorPrimaryDisabled2">#7885cb</color>
+    <color name="colorAccentDisabled">#F8CDD1</color>
+    <color name="background">#EEEEEF</color>
+    <color name="backgroundDark">#D0D0D1</color>
+    <color name="grey">#8B8B8C</color>
+    <color name="greyLightCariJadwal">#D9D9D9</color>
+    <color name="greyLightCariJadwal2">#F2F2F2</color>
+    <color name="greyDark">#7d7d7e</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green_light">#0FF704</color>
+    <color name="transparent">#00000000</color>
+    <color name="biru_lihat_guru_1">#55C8D3</color>
+    <color name="error_1">#FF5D5D</color>
+    <color name="status_red">#FF4949</color>
+    <color name="status_red_disabled">#FF8C8C</color>
+    <color name="status_green">#68BC78</color>
+    <color name="status_grey">#C9CACA</color>
+
+    <color name="icon_color_dark">#757475</color>
+
+    <color name="ruta_edited">#E3F0DC</color>
+    <color name="ruta_edited_dark">#D5E9D1</color>
+    <color name="ruta_error">#F9D2D2</color>
+
+    <color name="border_header">#7885cb</color>
+
+    <color name="warning">#FDD407</color>
+    <color name="warning_disabled">#FDF9C6</color>
+    <color name="signature_back">#E3E3E3</color>
+
+    <color name="avaibel">#c8e6c9</color>
+    <color name="avaibelDark">#a5d6a7</color>
+    <color name="error2">#ffab91</color>
+    <color name="error2Dark">#ff8a65</color>
+</resources>

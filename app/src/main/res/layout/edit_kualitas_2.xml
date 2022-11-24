@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/addnewtamu"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/barangWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Barang"
+            android:fontFamily="@font/calibri"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/barang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="@font/calibri"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/kualitasWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Kualitas"
+            android:fontFamily="@font/calibri"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/kualitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="@font/calibri"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/satuanUnitWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Satuan Unit"
+            android:fontFamily="@font/calibri"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/satuanUnit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="@font/calibri"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/nilaiSewaWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Sewa"
+            android:fontFamily="@font/calibri"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/nilaiSewa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="@font/calibri"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/keteranganWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:fontFamily="@font/calibri"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:fontFamily="@font/calibri"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context="id.go.bps.mamasa.vikkand.LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:src="@drawable/sketch"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:text="Vikkandser 2018 v1.0"
+                android:id="@+id/textView" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Survei Indeks Harga Konstruksi"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/login_holder"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nipWrapper"
+                android:layout_width="match_parent"
+                android:hint="NIP"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:fontFamily="@font/calibri">
+                <EditText
+                    android:id="@+id/nip"
+                    android:maxLines="1"
+                    android:textColorHint="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calibri"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/usernameWrapper"
+                android:layout_width="match_parent"
+                android:hint="USERNAME"
+                android:textColorHint="@color/white"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri">
+                <EditText
+                    android:id="@+id/username"
+                    android:maxLines="1"
+                    android:textColorHint="@color/white"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:textSize="16dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calibri"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/passwordWrapper"
+                android:layout_width="match_parent"
+                android:hint="PASSWORD"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri">
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/calibri"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:id="@+id/error_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="error"
+                android:visibility="gone"
+                android:textColor="@color/error_1"
+                android:textSize="15dp"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/calibri"/>
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/background_sign_in_button"
+                android:textSize="16dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:textAllCaps="false"
+                android:fontFamily="calibre"
+                android:text="Sign In" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

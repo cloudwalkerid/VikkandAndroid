@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/addnewtamu"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/barangWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Barang"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/barang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/kualitasWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jenis Kualitas"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/kualitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/satuanStandarWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Satuan Standar"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/satuanStandar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/merkWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Merk"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/merk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/satuanSetempatWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Satuan Setempat"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/satuanSetempat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/panjangWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ukuran Panjang"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/panjang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/lebarWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ukuran Lebar"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/lebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tinggiWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ukuran Tinggi"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/tinggi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/beratWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ukuran Berat"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/berat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/konversiWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Konversi"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/konversi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/hargaSetempatWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga Satuan Setempat"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/hargaSetempat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/hargaStandarWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga Satuan Standar"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/hargaStandar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/keteranganWrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Keterangan"
+            android:textColorHint="@color/black">
+            <EditText
+                android:id="@+id/keterangan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textSize="17dp" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</ScrollView>
